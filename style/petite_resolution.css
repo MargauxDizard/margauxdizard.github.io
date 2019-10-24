@@ -1,0 +1,73 @@
+img {
+        filter: invert(1);
+        -webkit-filter: invert(1);
+        -moz-filter: invert(1);
+        -o-filter: invert(1);
+        -ms-filter: invert(1);
+        transition: 1s ease;
+}
+
+body{
+	background-color:#e9edbb;
+	transition:1s ease;
+}
+
+
+
+
+
+
+h1{
+	color: #96e806;
+	transition: 1s ease;
+	font-size: 20px;
+	transition: 1s ease;
+}
+
+
+#projets{
+	width: 250px;
+	height:250px;
+	margin-left:100px;
+	transition: 1s ease;
+}
+
+
+h5{
+	font-size: 1em;
+	color: white;
+}
+
+#noms{
+	width:100px;
+	height:30px;
+	margin-top:-50px;
+	transition: 1s ease;
+}
+
+footer{ background-color: #96e806; 
+	    margin-top:250px;
+	    transition: 1s ease;
+      
+      }
+
+
+ h4{
+ 	font-size: 10px;
+ 	margin-left: 120px;
+ 
+ 	}
+ 	li{
+ 		margin-left: 250px;
+
+ 	}
+ }
+ h2{
+ 	font-size:5px;
+ 	
+
+ }
+ h3{
+ 	margin-left: -200px;
+ 	font-size: 10px;
+ }

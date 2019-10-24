@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* 
+
+ */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+@charset "UTF-8";
+body {
+    background:#535353;
+    }
+#draggable{
+	position: fixed;
+	left: 17%;
+	top: 4%;
+}
+
+
+#conteneur{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding-top:20px;
+
+	transition: all 1s ease;
+	background-image: :("fond.jpg");
+
+
+
+}
+
+
+
+ul{
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+}
+li{
+	margin-top: 2%;
+	margin-left: 500px;
+	padding-bottom: 100px;
+}
+
+h1{
+	font-family: courier new;
+	font-size: 3em;
+	color: #F5D0C5;
+	margin-top: 50px;
+	
+	margin-left:50px;
+}
+
+footer{
+
+	height:7%;
+	width: 100%;
+	background-color: grey;
+	margin-top: 600px;
+	padding-top: 3%;
+	
+}
+
+h4{
+	font-family: courier new;
+	font-size: 0,1em;
+	margin-left:42%;
+	
+	
+	color: white;
+}
+h2{ font-family: courier new;
+	font-size: 1em;
+	color: #F5D0C5;
+	
+	
+
+	
+}
+h2:hover{
+	font-size:2em;
+}
+#sectionproj{
+	/*border: 1px solid red;*/
+	width: 1200px;
+	margin: auto;
+
+}
+#projet0, #projet1, #projet2, #projet3, #projet4, #projet5{
+	/*border: 1px solid red;*/
+	width: 400px;
+	display: inline-block;	
+	margin-bottom: 80px;
+	margin-right:150px;
+
+}
+
+h3{
+	font-family: courier new;
+	font-size: 1em;
+	color: #F5D0C5;
+	margin-left:-400px;
+
+	
+	
+}
+h3:hover{
+	font-size:2em;
+}
+
+#projet0 #souris{
+	display: none;
+}
+#projet0:hover #souris{
+	display:block;
+}
+#projet0:hover #normal{
+	display: none;
+}
+#projet0 #normal {
+	display: block;
+}
+
+#projet1 #souris{
+	display: none;
+}
+#projet1:hover #souris{
+	display:block;
+}
+#projet1:hover #normal{
+	display: none;
+}
+#projet1 #normal {
+	display: block;
+}
+#projet2 #souris{
+	display: none;
+}
+#projet2:hover #souris{
+	display:block;
+	transition: 1s ease;
+}
+#projet2:hover #normal{
+	display: none;
+}
+#projet2 #normal {
+	display: block;
+}
+#projet3 #souris{
+	display: none;
+}
+#projet3:hover #souris{
+	display:block;
+}
+#projet3:hover #normal{
+	display: none;
+}
+#projet3 #normal {
+	display: block;
+}
+#projet4 #souris{
+	display: none;
+}
+#projet4:hover #souris{
+	display:block;
+}
+#projet4:hover #normal{
+	display: none;
+}
+#projet4 #normal {
+	display: block;
+}
+#projet5 #souris{
+	display: none;
+}
+#projet5:hover #souris{
+	display:block;
+}
+#projet5:hover #normal{
+	display: none;
+}
+#projet5 #normal {
+	display: block;
+}
+
+h5{
+	font-family: courier new;
+	font-size: 150%;
+	color: #F5D0C5;
+}
+h5:hover{
+	font-size: 180%;
+}
+#fleche{
+	margin-left:20%;
+}
