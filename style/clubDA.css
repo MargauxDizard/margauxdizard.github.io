@@ -53,10 +53,8 @@ table {
 
 
 body{
-	background-color:grey;
-
+	background:white;
 }
-
 #draggable{
 	position: fixed;
 	left: 17%;
@@ -66,13 +64,12 @@ body{
 
 
 #conteneur{
-	width: 100%;
+	width: auto;
 	height: auto;
 	margin: auto;
 	padding-top:20px;
 
 	transition: all 1s ease;
-	
 
 
 
@@ -94,7 +91,7 @@ li{
 h1{
 	font-family: courier new;
 	font-size: 3em;
-	color: #F5D0C5;
+	color: grey;
 	margin-top: 50px;
 	
 	margin-left:50px;
@@ -104,7 +101,7 @@ h1{
 }
 h2{ font-family: courier new;
 	font-size: 1em;
-	color: #F5D0C5;
+	color:grey;
 	
 	
 
@@ -115,7 +112,7 @@ h2{ font-family: courier new;
 h3{
 	font-family: courier new;
 	font-size: 1em;
-	color: #F5D0C5;
+	color: grey;
 	margin-left:-400px;
 
 	
@@ -127,7 +124,7 @@ footer{
 	height:7%;
 	width: 100%;
 	background-color: grey;
-	margin-top: 600px;
+	margin-top: 80%;
 	padding-top: 3%;
 	
 }
@@ -140,75 +137,47 @@ h4{
 	
 	color: white;
 }
-
-#projets{
-	       width: 700px;
-	       height:700px;
-	       
-	       display: flex;
-	      display: -webkit-box;
-	     display: -webkit-flex;
-	     display: -ms-flexbox;
-	     margin-left:9%;
-	     margin-top:0%;
-}
-#projet img{
+#images{
 	
-	margin-top:5%;
+	display: inline-block;
+	
+	
+}
+#images2{
 
+	display: inline-block;
+	
+	
 
 }
 
 #texte{
-	margin-left:-52%;
-	margin-top:-40%;
+	margin-left: 6%
 }
-	
 
+section{
+	width:100%;
+	height:1%;
+	margin-left:-100%;
+	margin-top: 10%;
+
+}
 h5{
-	margin-left: 38%;
-	width: 34%;
+	margin-left: 0%;
+	width: 25%;
 	height: 5%;
 	font-family: courier new;
-	font-size: 150%;
-	color: white;
-	margin-bottom:5%;
-
-
-}
-
-h6{
-	margin-left: 38%;
-	width: 54%;
-	height: 20%;
-	font-family: courier new;
-	font-size: 150%;
+	font-size: 1em;
 	color: grey;
-	margin-bottom:5%;
+	margin-bottom:8%;
 
 }
-
-h6:hover{
-	font-size: 200%;
-	color: white;
+#fleche{
+	margin-left: 5%;
+	margin-top: 110%;
+		
+	
 }
-
-
-
-
-
-#noms{
-	  width: 500px;
-	  height:200px;
-	 
-	  margin-left: 17%;
-	  margin-top:20%;
-	  
-}	
-
 #draggable{
 	cursor: url("imports/moove.png"), pointer;
 }
-
-
-

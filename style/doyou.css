@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -53,10 +48,8 @@ table {
 
 
 body{
-	background-color:grey;
-
+	background:#535353;
 }
-
 #draggable{
 	position: fixed;
 	left: 17%;
@@ -66,13 +59,12 @@ body{
 
 
 #conteneur{
-	width: 100%;
+	width: auto;
 	height: auto;
 	margin: auto;
 	padding-top:20px;
 
 	transition: all 1s ease;
-	
 
 
 
@@ -104,7 +96,7 @@ h1{
 }
 h2{ font-family: courier new;
 	font-size: 1em;
-	color: #F5D0C5;
+	color:#F5D0C5;
 	
 	
 
@@ -127,7 +119,7 @@ footer{
 	height:7%;
 	width: 100%;
 	background-color: grey;
-	margin-top: 600px;
+	margin-top: 30%;
 	padding-top: 3%;
 	
 }
@@ -140,75 +132,43 @@ h4{
 	
 	color: white;
 }
-
-#projets{
-	       width: 700px;
-	       height:700px;
-	       
-	       display: flex;
-	      display: -webkit-box;
-	     display: -webkit-flex;
-	     display: -ms-flexbox;
-	     margin-left:9%;
-	     margin-top:0%;
-}
-#projet img{
+#images{
 	
-	margin-top:5%;
+	display: inline-block;
 
-
+	
+	
 }
+
 
 #texte{
-	margin-left:-52%;
-	margin-top:-40%;
+	margin-left: 6%
 }
-	
 
+section{
+	width:100%;
+	height:1%;
+	margin-left:-100%;
+	margin-top: 10%;
+
+}
 h5{
-	margin-left: 38%;
-	width: 34%;
+	margin-left: 0%;
+	width: 50%;
 	height: 5%;
 	font-family: courier new;
-	font-size: 150%;
-	color: white;
-	margin-bottom:5%;
-
-
-}
-
-h6{
-	margin-left: 38%;
-	width: 54%;
-	height: 20%;
-	font-family: courier new;
-	font-size: 150%;
-	color: grey;
-	margin-bottom:5%;
+	font-size: 1em;
+	color: #F5D0C5;
+	margin-bottom:15%;
 
 }
-
-h6:hover{
-	font-size: 200%;
-	color: white;
+#fleche{
+	margin-left: 5%;
+	margin-top: 190%;
+		
+	
 }
-
-
-
-
-
-#noms{
-	  width: 500px;
-	  height:200px;
-	 
-	  margin-left: 17%;
-	  margin-top:20%;
-	  
-}	
-
 #draggable{
 	cursor: url("imports/moove.png"), pointer;
 }
-
-
 
